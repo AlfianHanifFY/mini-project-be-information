@@ -9,8 +9,8 @@ import { courseRouter } from "./routers/course";
  */
 export const appRouter = createTRPCRouter({
   // uncomment router berikut jika router-nya sudah dibuat
-  // student: studentRouter,
-  // course: courseRouter,
+  student: studentRouter,
+  course: courseRouter,
 });
 
 // export type definition of API
